@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/y-icon" href="/Untitled design (1).png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" type="image/y-icon" href="./utils/images/Untitled design (1).png">
     <title>F1 Motors | Beyond Something</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
@@ -21,9 +21,21 @@
 </head>
 
 <body>
-
+ 
     <!-- Header -->
-    <include src="./Utils/header.html"></include>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="/" class="logo">
+            <span>F1 </span>Motors
+        </a>
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./src/pages/about">About</a>
+            <a href="./src/pages/brands">Brands</a>
+            <a href="./src/pages/customs">Customs</a>
+            <a href="./src/pages/contact">Contact</a>
+        </nav>
+    </header>
 
     <!-- Dark Mode -->
     <div class="theme">
@@ -46,7 +58,7 @@
     <!-- Video -->
     <div id="videowrapper">
         <div id="fullScreenDiv">
-            <video src="\Video\Final.mp4" id="video" role="presentation" preload="auto" playsinline=""
+            <video src="./utils/videos/Video/Final.mp4" id="video" role="presentation" preload="auto" playsinline=""
                 crossorigin="anonymous" loop muted autoplay>
             </video>
         </div>
@@ -57,7 +69,7 @@
         <h1 class="heading"> Our <span>Services</span> </h1>
         <div class="box-container">
 
-            <a href="about.html" class="btn">
+            <a href="./src/pages/about/index.html" class="btn">
                 <div class="box minHbtn">
                     <i class="fas fa-car"></i>
                     <h3>About</h3>
@@ -112,10 +124,10 @@
 
             <div class="box box-cards">
 
-                <a href="/Feature Cars/car1.html">
+                <a href="./src/pages/car1.html">
 
                     <h3>
-                        <img src="/Cars/car 1.jpeg">
+                        <img src="./utils/images/Cars/car1.jpeg">
                     </h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE</button>
@@ -135,9 +147,9 @@
 
             <div class="box box-cards">
 
-                <a href="/Feature Cars/car2.html">
+                <a href="./src/pages/car2.html">
                     <h3>
-                        <img src="/Cars/car 2.jpeg">
+                        <img src="./utils/images/Cars/car2.jpeg">
                     </h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
@@ -155,9 +167,9 @@
 
 
             <div class="box box-cards">
-                <a href="/Feature Cars/car3.html">
+                <a href="./src/pages/car3.html">
 
-                    <h3><img src="/Cars/car 3.jpeg"></h3>
+                    <h3><img src="./utils/images/Cars/car3.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
 
@@ -172,9 +184,9 @@
 
             <div class="box box-cards">
 
-                <a href="/Feature Cars/car4.html">
+                <a href="./src/pages/car4.html">
 
-                    <h3><img src="/Cars/car 4.jpeg"></h3>
+                    <h3><img src="./utils/images/Cars/car4.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
 
@@ -190,8 +202,8 @@
 
 
             <div class="box box-cards">
-                <a href="/Feature Cars/car5.html">
-                    <h3><img src="/Cars/car 5.jpeg"></h3>
+                <a href="./src/pages/car5.html">
+                    <h3><img src="./utils/images/Cars/car5.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
 
@@ -207,9 +219,9 @@
 
             <div class="box box-cards">
 
-                <a href="/Feature Cars/car6.html">
+                <a href="./src/pages/car6.html">
 
-                    <h3><img src="/Cars/car 6.jpeg"></h3>
+                    <h3><img src="./utils/images/Cars/car6.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
 
@@ -224,9 +236,9 @@
 
             <div class="box box-cards">
 
-                <a href="/Feature Cars/car7.html">
+                <a href="./src/pages/car7.html">
 
-                    <h3><img src="/Cars/my_divo.jpeg"></h3>
+                    <h3><img src="./utils/images/Cars/car7.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
                     </button>
@@ -239,9 +251,9 @@
             </div>
 
             <div class="box box-cards">
-                <a href="/Feature Cars/car8.html">
+                <a href="./src/pages/car8.html">
 
-                    <h3><img src="/Cars/car 8.jpeg"></h3>
+                    <h3><img src="./utils/images/Cars/car8.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
 
@@ -255,9 +267,9 @@
             </div>
 
             <div class="box box-cards">
-                <a href="/Feature Cars/car9.html">
+                <a href="./src/pages/car9.html">
 
-                    <h3><img src="/Cars/my_porsche.jpeg"></h3>
+                    <h3><img src="./utils/images/Cars/car9.jpeg"></h3>
 
                     <button class="glow-on-hover" type="button">ASK FOR PRICE
 
@@ -273,7 +285,7 @@
 
     </section>
 
-
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
 
     <!-- Footer -->
 
@@ -282,8 +294,8 @@
     <br>
     <br>
 
-    <include src="./Utils/footer.html"></include>
-    <script src="script.js"></script>
+    <include src="./src/pages/footer.html"></include>
+    <script src="./src/js/script.js"></script>
 
     <script src="https://unpkg.com/htmlincludejs"></script>
 </body>

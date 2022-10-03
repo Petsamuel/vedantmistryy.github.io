@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../../css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -15,7 +15,19 @@
 
 <body>
 
-    <include src="./Utils/header.html"></include>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="/" class="logo">
+            <span>F1 </span>Motors
+        </a>
+        <nav class="navbar">
+            <a href="../../../index.html">Home</a>
+            <a href="../about/">About</a>
+            <a href="../brands/">Brands</a>
+            <a href="../customs/">Customs</a>
+            <a href="./">Contact</a>
+        </nav>
+    </header>
 
     <!-- Dark Mode -->
     <div class="theme">
@@ -109,8 +121,8 @@
     </section>
 
 
-    <include src="./Utils/footer.html"></include>
-    <script src="script.js"></script>
+    <include src="../footer.html"></include>
+    <script src="../../js/script.js"></script>
     <script src="https://unpkg.com/htmlincludejs"></script>
 </body>
 

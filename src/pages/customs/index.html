@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customs</title>
-    <link rel="stylesheet" href="customs.css">
+    <link rel="stylesheet" href="../../css/customs.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" type="image/y-icon" href="/Untitled design (1).png">
@@ -14,7 +14,19 @@
 
 <body>
     <!-- header -->
-    <include src="./Utils/header.html"></include>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="/" class="logo">
+            <span>F1 </span>Motors
+        </a>
+        <nav class="navbar">
+            <a href="../../../index.html">Home</a>
+            <a href="../about/">About</a>
+            <a href="../brands/">Brands</a>
+            <a href="./">Customs</a>
+            <a href="../contact/">Contact</a>
+        </nav>
+    </header>
 
     <!-- Dark Mode -->
     <div class="theme">
@@ -35,7 +47,7 @@
     </script>
 
     <!-- main -->
-    <img src="/About Images/2.jpg" style="width: 100%;">
+    <img src="../../../utils/images/About Images/2.jpg" style="width: 100%;">
     <!-- wrapping heading -->
     <h1>
         CUSTOMS MODIFICATION
@@ -131,9 +143,9 @@
     <br>
     <br>
     <br>
-    <include src="./Utils/footer.html"></include>
+    <include src="../footer.html"></include>
 
-    <script src="script.js"></script>
+    <script src="../../js/script.js"></script>
     <script src="https://unpkg.com/htmlincludejs"></script>
 </body>
 

@@ -155,6 +155,11 @@ body.dark h1 {
   padding-right: 100px;
 }
 
+body.dark .header-about .heading {
+  background-color: #000;
+  color: white;
+}
+
 .Mid {
   display: flex;
   /* padding: -10px; */
@@ -176,6 +181,10 @@ body.dark h1 {
   background-position: right;
 }
 
+body.dark .Mid * { 
+  background-color: #000;
+  color: white;
+}
 
 .top{
   background-color: #f2f2f2;
@@ -474,6 +483,10 @@ body.dark h1 {
   transition: .8s .2s;
 }
 
+body.dark .top *, body.dark .top { 
+  background-color: #000;
+  color: white;
+}
 
 /* Footer */
 
@@ -514,7 +527,10 @@ body.dark h1 {
   padding-right: 1.9rem;
 }
 
-
+body.dark .footer {
+  background: #2678cf26;
+  color: white;
+}
 
 /*
 iPad and Surface

@@ -1,6 +1,22 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.navbar');
 
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+      $('#toTopBtn').fadeIn();
+    } else {
+      $('#toTopBtn').fadeOut();
+    }
+  });
+
+  $('#toTopBtn').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
+  });
+});
 menu.onclick = () => {
   menu.classList.toggle('fa-times');
   navbar.classList.toggle('active');

@@ -8,7 +8,7 @@
   <title>About</title>
   <!-- font awesome cdn link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="../../css/about.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="icon" type="image/y-icon" href="/Untitled design (1).png">
@@ -19,7 +19,19 @@
 
 <body>
   <!-- Header -->
-  <include src="./Utils/header.html"></include>
+  <header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="/" class="logo">
+        <span>F1 </span>Motors
+    </a>
+    <nav class="navbar">
+        <a href="../../../index.html">Home</a>
+        <a href="./">About</a>
+        <a href="../brands/">Brands</a>
+        <a href="../customs/">Customs</a>
+        <a href="../contact/">Contact</a>
+    </nav>
+</header>
 
   <!-- Dark Mode -->
   <div class="theme">
@@ -39,7 +51,7 @@
     });
   </script>
 
-  <img src="/About Images/1.jpg" style="width: 100%;">
+  <img src="../../../utils/images/About Images/1.jpg" style="width: 100%;">
 
   <section class="header-about">
 
@@ -101,7 +113,7 @@
 
 
     <div class="ige">
-      <img src="/About Images/about.jpg">
+      <img src="../../../utils/images/About Images/about.jpg">
     </div>
 
   </section>
@@ -120,7 +132,7 @@
 
         <h3>The Personal Touch</h3>
         <br>
-        <img src="/About Images/top-left.jpg" height="300px">
+        <img src="../../../utils/images/About Images/top-left.jpg" height="300px">
       </div>
 
 
@@ -130,7 +142,7 @@
         <h3> Our Collection</h3>
 
         <br>
-        <img src="/About Images/top-right.jpg" height="300px" width="500px">
+        <img src="../../../utils/images/About Images/top-right.jpg" height="300px" width="500px">
       </div>
 
       <div class="bottom-left">
@@ -138,7 +150,7 @@
         <h3>Body Shop</h3>
 
         <br>
-        <img src="/About Images/bottom-left.jpg" height="300px" width="480px">
+        <img src="../../../utils/images/About Images/bottom-left.jpg" height="300px" width="480px">
       </div>
 
       <div class="bottom-right">
@@ -146,7 +158,7 @@
         <h3>Paint Protection Film</h3>
 
         <br>
-        <img src="/About Images/skinning.jpeg" height="300px" width="500px">
+        <img src="../../../utils/images/About Images/skinning.jpeg" height="300px" width="500px">
       </div>
 
       <div class="fifth">
@@ -155,7 +167,7 @@
 
         <a href="">
           <br>
-          <img src="/About Images/fifth.jpg" height="330px" width="470px">
+          <img src="../../../utils/images/About Images/fifth.jpg" height="330px" width="470px">
         </a>
       </div>
 
@@ -164,7 +176,7 @@
         <h3> Quality Checkpoints</h3>
 
         <br>
-        <img src="/About Images/sixth.jpg" height="330px" width="500px">
+        <img src="../../../utils/images/About Images/sixth.jpg" height="330px" width="500px">
       </div>
 
     </div>
@@ -174,9 +186,9 @@
 
   </section>
 
-  <include src="./Utils/footer.html"></include>
+  <include src="./../footer.html"></include>
 
-  <script src="script.js"></script>
+  <script src="../../js/script.js"></script>
   <script src="https://unpkg.com/htmlincludejs"></script>
 </body>
 
