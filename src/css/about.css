@@ -152,7 +152,6 @@ body.dark h1 {
   font-size: 30px;
   text-align: center;
   padding-top: 35px;
-  padding-right: 100px;
 }
 
 body.dark .header-about .heading {
@@ -167,17 +166,17 @@ body.dark .header-about .heading {
 
 .Mid .abt {
   color: #000;
-  padding: 100px 20px 100px 70px;
+padding: 20px;
   height: 800px;
   background-color: white;
   font-size: 18px;
   text-align: center;
+  height: 100%;
 }
 
 .Mid .ige img{
   background-color: white;
-  padding-top: 130px;
-  padding-right: 40px;
+padding: auto;
   background-position: right;
 }
 
@@ -201,38 +200,13 @@ body.dark .Mid * {
 
 .top .content{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 2fr));
   gap: 4rem;
-  padding: 30px 40px 0px 40px;
+
   
 }
 
 
-.top .content .top-left{
-  padding: 0px 0px 0px 75px;
-}
 
-.top .content .top-right{
-  padding: 0px 0px 30px 75px;
-  
-}
-
-.top .content .bottom-left{
-  padding: 0px 0px 0px 75px;
-  
-}
-.top .content .bottom-right{
-  padding: 0px 0px 30px 75px;
-  
-}
-.top .content .fifth{
-  padding: 0px 0px 30px 75px;
-  
-}
-.top .content .sixth{
-  padding: 0px 0px 30px 75px;
-  
-}
 
 
 .top .content .top-left{
@@ -491,7 +465,7 @@ body.dark .top *, body.dark .top {
 /* Footer */
 
 .footer {
-  background: #ffe3de;
+  background: #cad1ea;
   /* width:1500px; */
   /* padding-left: 60px; */
   padding-left: 100px;
@@ -558,9 +532,7 @@ iPad and Surface
   .Mid{
     display: block;
   }
-  .Mid .ige img{
-    padding-left: 30px;
-  }
+ 
 
   .Mid .abt p{
     padding-right: 25px;
